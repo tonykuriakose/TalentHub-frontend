@@ -1,12 +1,17 @@
+import { Route, Routes } from "react-router-dom";
 
 
 const App = () => {
 
 
   return (
-    <div>
-      <p className="text-red-900">App Component</p>
-    </div>
+    <Routes>
+      <Route path="" element="" />
+      <Route />
+      <Route />
+
+
+    </Routes>
   );
 };
 
