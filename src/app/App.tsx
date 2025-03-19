@@ -1,3 +1,4 @@
+import AppRoutes from "./AppRoutes";
 
 
 const App = () => {
@@ -5,7 +6,7 @@ const App = () => {
 
   return (
     <div>
-      <p className="text-green-800">App Component</p>
+      <AppRoutes />
     </div>
   );
 };
