@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import LandingPage from "../featurs/landing/pages/LandingPage";
+import LandingPage from "../features/landing/pages/LandingPage";
 
 const AppRoutes = () => {
   return (
