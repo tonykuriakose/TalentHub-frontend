@@ -1,13 +1,17 @@
+import {ThemeProvider} from "@mui/material"
 import AppRoutes from "./AppRoutes";
+import theme from "@core/theme/theme"
 
 
 const App = () => {
 
 
   return (
-    <div>
+    <>
+    <ThemeProvider theme={theme}>
       <AppRoutes />
-    </div>
+      </ThemeProvider>
+    </>
   );
 };
 
