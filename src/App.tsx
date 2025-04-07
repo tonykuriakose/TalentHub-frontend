@@ -5,7 +5,7 @@ const App = () => {
 
   return (
     <div>
-      <p>App Component</p>
+      <p className="text-red-500">App Component</p>
     </div>
   );
 };
