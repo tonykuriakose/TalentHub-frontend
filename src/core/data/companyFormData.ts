@@ -1,6 +1,6 @@
 export const companyTypes = [
-    { value: "Startup", label: "Startup" },
     { value: "Established Business", label: "Established Business" },
+    { value: "Startup", label: "Startup" },
     { value: "Small Business", label: "Small Business" },
     { value: "Enterprise", label: "Enterprise" },
     { value: "Non-Profit Organization", label: "Non-Profit Organization" },
@@ -9,14 +9,14 @@ export const companyTypes = [
 ];
 
 export const industries = [
-    { value: "Technology", label: "Technology" },
+    { value: "Manufacturing", label: "Manufacturing" },
     { value: "Finance", label: "Finance" },
+    { value: "Technology", label: "Technology" },
     { value: "Healthcare", label: "Healthcare" },
     { value: "Education", label: "Education" },
     { value: "E-commerce", label: "E-commerce" },
     { value: "Real Estate", label: "Real Estate" },
     { value: "Marketing", label: "Marketing" },
-    { value: "Manufacturing", label: "Manufacturing" },
     { value: "Legal Services", label: "Legal Services" },
     { value: "Consulting", label: "Consulting" },
     { value: "Media & Entertainment", label: "Media & Entertainment" },
