@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",  // 👈 required for paths to work
+    "baseUrl": ".",  
     "paths": {
-      "@core/*": ["src/core/*"]  // 👈 this is the fix
+      "@core/*": ["src/core/*"]  
     },
 
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
