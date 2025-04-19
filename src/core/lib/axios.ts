@@ -9,7 +9,8 @@ const axiosInstance = axios.create({
     timeout: 10000,
 });
 
-// Request Interceptor (Optional)
+
+
 axiosInstance.interceptors.request.use(
     (config) => {
         const token = getToken()
@@ -19,7 +20,6 @@ axiosInstance.interceptors.request.use(
         return config;
     },
     (error) => {
-        // Handle request error
         return Promise.reject(error);
     }
 );

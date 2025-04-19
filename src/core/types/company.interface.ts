@@ -29,3 +29,4 @@ export interface ICompanyProfile {
   createdAt: Date;
   updatedAt: Date;
 }
+
