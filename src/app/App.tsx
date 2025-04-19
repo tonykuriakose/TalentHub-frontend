@@ -10,8 +10,8 @@ const App = () => {
     <Provider store={store}>
       <ThemeProvider theme={theme}>
         <CssBaseline>
-      <AppRoutes />
-      </CssBaseline>
+          <AppRoutes />
+        </CssBaseline>
       </ThemeProvider>
     </Provider>
   );
